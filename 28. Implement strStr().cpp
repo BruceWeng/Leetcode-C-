@@ -24,7 +24,8 @@ This is consistent to C's strstr() and Java's indexOf().
 Algorithm:
 1. Traverse all the possible starting points of haystack (from 0 to haystack.length() - needle.length()),
 see if the following characters in haystack match match those in needle.
-
+T: O(m*n)
+S: O(1)
 */
 #include <iostream>
 
